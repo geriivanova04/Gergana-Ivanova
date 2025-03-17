@@ -3,27 +3,30 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Smythe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Italiana&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Smythe&display=swap');
 
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family:  "Instrument Serif", "Italiana", sans-serif, "Smythe", Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, serif, sans-serif; 
 	color: #202030;
-	background-color: #f8f8fc;
+	background-color: #f7d9f4;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #f6d9ec;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #D2E5FE;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #D2E5FE;
 }
 
 /* Styles for lists in the document */
@@ -54,3 +57,52 @@ body {
 .my-italian-font {
 	font-family: "Italianno", cursive;
 }	
+
+h1 {
+	font-family: "Italianno", cursive;
+	font-size: 150px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.my-cute-picture {
+	margin-left: 50px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+}
+.my-bio {
+	font-family: "Smythe";
+	font-size: 35px;
+	margin-left: 57px;
+}
+.my-student-job {
+	margin-top: 1cm;
+}
+.my-uni {
+	margin-top: 1cm;
+}
+.my-edu {
+	background-color: #f7d9f4;
+	padding: 10px;
+	border-radius: 5px ;
+}
+.my-job {
+	background-color: #f7d9f4;
+	padding: 10px;
+	border-radius: 5px ;
+}
+.my-border {
+	border: 10px solid #f7d9f4;
+	border-radius: 5px;
+}
+.language-progress {
+	background-color: #f7d9f4; 
+}
+
+.language-level {
+  border-color: #000000 !important;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
