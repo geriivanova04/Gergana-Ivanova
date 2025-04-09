@@ -56,6 +56,7 @@ body {
 
 .my-italian-font {
 	font-family: "Italianno", cursive;
+	color: #2d2f68; /* Change to your desired color */
 }	
 
 h1 {
@@ -75,6 +76,7 @@ h1 {
 	font-family: "Smythe";
 	font-size: 35px;
 	margin-left: 57px;
+	color: #252638;
 }
 .my-student-job {
 	margin-top: 1cm;
